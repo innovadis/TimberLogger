@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <Description>Logger provider to use timber.io as logging platform</Description>
+    <PackageId>TimberLogger</PackageId>
+    <VersionPrefix>0.2.0</VersionPrefix>
+    <RuntimeIdentifiers>win10-x64;win8-x64;osx.10.10-x64;osx.10.11-x64;osx.10.12-x64;debian.8-x64</RuntimeIdentifiers>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+    </Reference>
+  </ItemGroup>
+</Project>
