@@ -1,5 +1,5 @@
 # TimberLogger
-[![NuGet](https://buildstats.info/nuget/TimberLogger)](https://www.nuget.org/packages/TimberLogger/)
+[![NuGet](https://img.shields.io/nuget/v/TimberLogger.svg)](https://www.nuget.org/packages/TimberLogger/)
 
 TimberLogger is a .NET Core logger provider to push your logs to [Timber](https://timber.io).
 
