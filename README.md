@@ -5,6 +5,9 @@ TimberLogger is a .NET Core logger provider to push your logs to [Timber](https:
 ### Generate API key
 To get an API key, just create a new app. Under *Language Type* and *Platform Type*, select _Other_. You will now get a page that contains your API key.
 
+## Install package
+Run the following command in your project root: `dotnet add package TimberLogger`
+
 ### Add provider to project
 Instantiate the provider with your API key:
 

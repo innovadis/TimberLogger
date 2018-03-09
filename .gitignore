@@ -266,3 +266,5 @@ Files/Templates/Bin/*
 
 #Downloadd node packages
 node_modules
+
+.vscode
